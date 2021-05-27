@@ -53,14 +53,14 @@ class _HomeState extends State<Home> {
                         : MainAxisAlignment.center,
                     children: <Widget>[
                       Text(
-                        "AppGuy",
+                        "Ini",
                         style: TextStyle(
                             fontSize: 18,
                             color: Colors.white,
                             fontFamily: 'Overpass'),
                       ),
                       Text(
-                        "Recipes",
+                        "Resep",
                         style: TextStyle(
                             fontSize: 18,
                             color: Colors.blue,
@@ -72,7 +72,7 @@ class _HomeState extends State<Home> {
                     height: 60,
                   ),
                   Text(
-                    "What will you cook today?",
+                    "Apa yang akan anda masak hari ini?",
                     style: TextStyle(
                         fontSize: 20,
                         color: Colors.white,
@@ -80,7 +80,7 @@ class _HomeState extends State<Home> {
                         fontFamily: 'Overpass'),
                   ),
                   Text(
-                    "Just Enter Ingredients you have and we will show the best recipe for you",
+                    "masukan bahan makanan, kami akan menampilkan resepnya untuk anda",
                     style: TextStyle(
                         fontSize: 15,
                         color: Colors.white,
@@ -101,7 +101,7 @@ class _HomeState extends State<Home> {
                                 color: Colors.white,
                                 fontFamily: 'Overpass'),
                             decoration: InputDecoration(
-                              hintText: "Enter Ingridients",
+                              hintText: "masukkan bahan",
                               hintStyle: TextStyle(
                                   fontSize: 16,
                                   color: Colors.white.withOpacity(0.5),

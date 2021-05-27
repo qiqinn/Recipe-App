@@ -55,14 +55,14 @@ class _RecipeViewState extends State<RecipeView> {
                     : MainAxisAlignment.center,
                 children: <Widget>[
                   Text(
-                    "AppGuy",
+                    "Ini",
                     style: TextStyle(
                         fontSize: 18,
                         color: Colors.white,
                         fontFamily: 'Overpass'),
                   ),
                   Text(
-                    "Recipes",
+                    "Resep",
                     style: TextStyle(
                         fontSize: 18,
                         color: Colors.blue,
@@ -72,7 +72,7 @@ class _RecipeViewState extends State<RecipeView> {
               ),
             ),
             Container(
-              height: MediaQuery.of(context).size.height - (Platform.isIOS ? 104 : 30),
+              height: 518,
               width: MediaQuery.of(context).size.width,
               child: WebView(
                 onPageFinished: (val){
